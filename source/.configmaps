@@ -1,0 +1,77 @@
+[
+	{
+		#formatVersion : '1.1',
+		#name : 'MCP SDK (VAST 15.0)',
+		#versionName : '0.9',
+		#ts : 3968074340,
+		#applications : [
+			{
+				#name : 'JsonCanonicalizationApp'
+			},
+			{
+				#name : 'McpApp'
+			},
+			{
+				#name : 'McpHttpApp'
+			},
+			{
+				#name : 'McpHttpOAuth2App'
+			}
+		],
+		#conditions : [
+			{
+				#condition : 'System imageVersionDottedId = \'15.0\'',
+				#requiredMaps : [
+					{
+						#name : 'z.ST: Grease',
+						#versionName : 'V 15.0.0  [593]'
+					},
+					{
+						#name : 'z.ST: JSON Support',
+						#versionName : 'V 15.0.0  [593]'
+					},
+					{
+						#name : 'z.ST: Regex',
+						#versionName : 'V 15.0.0  [593]'
+					},
+					{
+						#name : 'z.ST: Server Smalltalk (SST) - OAuth2/OIDC',
+						#versionName : 'V 15.0.0  [593]'
+					}
+				]
+			}
+		]
+	},
+	{
+		#formatVersion : '1.1',
+		#name : 'Test MCP SDK (VAST 15.0)',
+		#versionName : '0.9',
+		#ts : 3968074339,
+		#applications : [
+			{
+				#name : 'McpHttpTestsApp'
+			},
+			{
+				#name : 'McpTestsApp'
+			},
+			{
+				#name : 'McpHttpOAuth2TestsApp'
+			}
+		],
+		#conditions : [
+			{
+				#condition : 'System imageVersionDottedId = \'15.0\'',
+				#requiredMaps : [
+					{
+						#name : 'z.ST: SUnit',
+						#versionName : 'V 15.0.0  [593]'
+					},
+					{
+						#name : 'MCP SDK (VAST 15.0)',
+						#versionName : '0.9'
+					}
+				]
+			}
+		]
+	}
+]

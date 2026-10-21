@@ -20,7 +20,7 @@
 		],
 		#conditions : [
 			{
-				#condition : 'System imageVersionDottedId = \'15.0\'',
+				#condition : 'true',
 				#requiredMaps : [
 					{
 						#name : 'z.ST: Grease',
